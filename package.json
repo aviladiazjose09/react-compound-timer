@@ -1,6 +1,6 @@
 {
-  "name": "react-compound-timer",
-  "version": "1.1.15",
+  "name": "@joseavilasg/react-compound-timer",
+  "version": "1.1.15-1",
   "description": "Timer compound react component",
   "main": "build",
   "types": "build",
@@ -17,7 +17,8 @@
     "build": "npx styleguidist build",
     "test": "jest",
     "transpile": "tsc",
-    "prepublishOnly": "npm run transpile"
+    "prepublishOnly": "npm run transpile",
+    "publish-npm": "npm publish --access public"
   },
   "author": "German Volkov <Volkov.german.1997@gmail.com> (https://volkov97.com)",
   "license": "ISC",
@@ -39,6 +40,9 @@
     "webpack-cli": "^3.1.0"
   },
   "peerDependencies": {
+    "react": "^16.8.6 || ^17.0.2 || ^18.0.0"
+  },
+  "dependencies": {
     "react": "^16.8.6"
   }
 }
